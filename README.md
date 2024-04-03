@@ -1,27 +1,47 @@
-# AppTodo
+# ToDo List com Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+![ToDo](src/assets/img/todo-list.png)
 
-## Development server
+Este é um projeto de exemplo desenvolvido como parte do aprendizado em Angular. O projeto implementa uma aplicação de ToDo List utilizando Angular e localStorage para armazenar os dados localmente.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Sobre o Projeto
 
-## Code scaffolding
+O projeto é uma aplicação de ToDo List que permite ao usuário adicionar, marcar como concluída e excluir tarefas. Ele utiliza o Angular para a criação da interface do usuário e o armazenamento local (localStorage) para manter os dados das tarefas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades
 
-## Build
+- Adicionar novas tarefas.
+- Marcar as tarefas como concluídas.
+- Excluir tarefas.
+- Armazenamento local das tarefas utilizando localStorage.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Estrutura do Projeto
 
-## Running unit tests
+O projeto possui a seguinte estrutura:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- `src/app`: Pasta que contém os componentes, serviços, módulos e arquivos relacionados à aplicação.
+- `src/assets`: Pasta para armazenar arquivos estáticos como imagens, estilos CSS, etc.
+- `src/environments`: Pasta para configurar variáveis de ambiente.
 
-## Running end-to-end tests
+## Como Usar
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone este repositório em sua máquina local.
+2. Certifique-se de ter o Angular CLI instalado globalmente (`npm install -g @angular/cli`).
+3. Navegue até o diretório do projeto e instale as dependências (`npm install`).
+4. Execute o servidor de desenvolvimento (`ng serve`) e abra o navegador no endereço `http://localhost:4200`.
 
-## Further help
+## Recursos Utilizados
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Angular
+- TypeScript
+- HTML
+- CSS
+- localStorage
+
+## Contribuição
+
+Este é um projeto em desenvolvimento. Contribuições são bem-vindas por meio de pull requests. Para grandes mudanças, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
+
+## Contato
+
+Se tiver alguma dúvida ou sugestão relacionada a este projeto, sinta-se à vontade para entrar em contato.
